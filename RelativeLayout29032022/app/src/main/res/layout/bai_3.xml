@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:background="#DD2012"
+        android:id="@+id/tv"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#12DD34"
+        android:id="@+id/tv1"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_below="@+id/tv"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#3012DD"
+        android:id="@+id/tv2"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_below="@+id/tv1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#DCA80F"
+        android:id="@+id/tv3"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_below="@+id/tv2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#597D8E"
+        android:id="@+id/tv4"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_below="@+id/tv3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#AA2552"
+        android:id="@+id/tv5"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_below="@+id/tv4"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

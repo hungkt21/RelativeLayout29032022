@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai_1">
+    <TextView
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F8F4F4"
+        android:background="#EA0909"
+        android:text="Top Content Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F8F4F4"
+        android:background="#473F3F"
+        android:text="Bottom Content Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv1"
+        android:layout_toStartOf="@id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6DAA49"
+        android:text="First"
+        android:textColor="#F8F4F4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/tv2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#302C9E"
+        android:text="Second"
+        android:textColor="#F8F4F4"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/tv2"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F8F4F4"
+        android:background="#C17626"
+        android:text="Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
